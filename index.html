@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pearl Paulene S. Sulana - CV</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom right, #ffecd2 0%, #fcb69f 100%);
+            min-height: 100vh;
+            padding: 30px 15px;
+        }
+        
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 40px rgba(252, 182, 159, 0.4);
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #ff6b9d 0%, #c06c84 100%);
+            color: white;
+            padding: 50px 30px;
+            text-align: center;
+            border-bottom: 5px solid #ffa5c0;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        .header .subtitle {
+            font-size: 1.2em;
+            opacity: 0.95;
+            font-weight: 300;
+            letter-spacing: 1px;
+        }
+        
+        .content {
+            padding: 40px 35px;
+        }
+        
+        .section {
+            margin-bottom: 35px;
+        }
+        
+        .section h2 {
+            color: #c06c84;
+            font-size: 1.6em;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #ffa5c0;
+            display: inline-block;
+        }
+        
+        .section-content {
+            margin-top: 20px;
+            color: #555;
+            line-height: 1.7;
+        }
+        
+        .section-content p {
+            margin-bottom: 12px;
+            font-size: 1em;
+        }
+        
+        .education-item {
+            background: #fff5f7;
+            padding: 18px;
+            border-radius: 8px;
+            margin-bottom: 12px;
+            border-left: 5px solid #ff6b9d;
+        }
+        
+        .education-item h3 {
+            color: #c06c84;
+            margin-bottom: 6px;
+            font-size: 1.2em;
+        }
+        
+        .education-item p {
+            color: #666;
+            margin: 4px 0;
+            font-size: 0.95em;
+        }
+        
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 15px;
+        }
+        
+        .skill-badge {
+            background: linear-gradient(135deg, #ff6b9d, #ffa5c0);
+            color: white;
+            padding: 10px 18px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: 500;
+            box-shadow: 0 3px 10px rgba(255, 107, 157, 0.3);
+            transition: transform 0.2s ease;
+        }
+        
+        .skill-badge:hover {
+            transform: scale(1.05);
+        }
+        
+        .interests-list {
+            margin-top: 15px;
+        }
+        
+        .interests-list p {
+            padding-left: 20px;
+            position: relative;
+            margin-bottom: 8px;
+        }
+        
+        .interests-list p:before {
+            content: "✿";
+            position: absolute;
+            left: 0;
+            color: #ff6b9d;
+            font-weight: bold;
+        }
+        
+        .contact-section {
+            background: linear-gradient(135deg, #fff5f7 0%, #ffe8f0 100%);
+            padding: 25px;
+            border-radius: 12px;
+            margin-top: 25px;
+        }
+        
+        .contact-section h2 {
+            color: #c06c84;
+            text-align: center;
+            margin-bottom: 20px;
+            border: none;
+            display: block;
+        }
+        
+        .contact-items {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+        }
+        
+        .contact-card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            box-shadow: 0 2px 8px rgba(192, 108, 132, 0.1);
+        }
+        
+        .contact-icon {
+            width: 35px;
+            height: 35px;
+            background: linear-gradient(135deg, #ff6b9d, #ffa5c0);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.1em;
+            flex-shrink: 0;
+        }
+        
+        .contact-details {
+            flex: 1;
+        }
+        
+        .contact-label {
+            font-size: 0.8em;
+            color: #999;
+            margin-bottom: 2px;
+        }
+        
+        .contact-value {
+            color: #333;
+            font-weight: 500;
+            font-size: 0.9em;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #999;
+            font-size: 0.85em;
+            border-top: 1px solid #ffe8f0;
+            margin-top: 20px;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .content {
+                padding: 25px 20px;
+            }
+            
+            .skills-container {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>PEARL PAULENE S. SULANA</h1>
+            <p class="subtitle">Information Technology Student</p>
+        </div>
+        
+        <div class="content">
+            <div class="section">
+                <h2>About Me</h2>
+                <div class="section-content">
+                    <p>
+                        A motivated 4th-year Information Technology student at Davao del Norte State College 
+                        with a passion for learning and creating innovative digital solutions. I enjoy working 
+                        on web development projects and exploring new technologies that can make a positive 
+                        impact. I believe in the power of collaboration and continuous improvement, always 
+                        seeking opportunities to grow both personally and professionally.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>Educational Background</h2>
+                <div class="section-content">
+                    <div class="education-item">
+                        <h3>Bachelor of Science in Information Technology</h3>
+                        <p><strong>Davao del Norte State College</strong></p>
+                        <p>BSIT 4D | 2023 - 2027</p>
+                        <p>Focus: Web Development & Software Engineering</p>
+                    </div>
+                    
+                    <div class="education-item">
+                        <h3>Senior High School</h3>
+                        <p><strong>A.O. Floirendo National High School</strong></p>
+                        <p>ICT Strand | 2020 - 2022</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>Technical Skills</h2>
+                <div class="skills-container">
+                    <div class="skill-badge">HTML & CSS</div>
+                    <div class="skill-badge">JavaScript Basics</div>
+                    <div class="skill-badge">Responsive Design</div>
+                    <div class="skill-badge">Git & GitHub</div>
+                    <div class="skill-badge">Python Programming</div>
+                    <div class="skill-badge">Database Fundamentals</div>
+                    <div class="skill-badge">UI/UX Design</div>
+                    <div class="skill-badge">Microsoft Office</div>
+                    <div class="skill-badge">Problem Solving</div>
+                    <div class="skill-badge">Teamwork</div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>Interests</h2>
+                <div class="interests-list">
+                    <p>Web Design & Development</p>
+                    <p>User Interface & User Experience Design</p>
+                    <p>Learning New Technologies</p>
+                    <p>Creative Problem Solving</p>
+                    <p>Digital Art & Design</p>
+                    <p>Tech Innovation & Trends</p>
+                </div>
+            </div>
+            
+            <div class="contact-section">
+                <h2>Get In Touch</h2>
+                <div class="contact-items">
+                    <div class="contact-card">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-details">
+                            <div class="contact-label">Personal Email</div>
+                            <div class="contact-value">pearlsulana@gmail.com</div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">🎓</div>
+                        <div class="contact-details">
+                            <div class="contact-label">School Email</div>
+                            <div class="contact-value">sulana.pearlpaulene@dnsc.edu.ph</div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-details">
+                            <div class="contact-label">Mobile</div>
+                            <div class="contact-value">09943498470</div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <div class="contact-label">Location</div>
+                            <div class="contact-value">Davao del Norte, PH</div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">💼</div>
+                        <div class="contact-details">
+                            <div class="contact-label">GitHub</div>
+                            <div class="contact-value">github.com/pearlsulana</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer">
+                <p>© 2026 Pearl Paulene S. Sulana | Created for IT415</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
