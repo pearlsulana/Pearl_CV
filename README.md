@@ -9,12 +9,15 @@
 ## About This Project
 This repository contains my personal CV webpage created as a requirement for IT415. The webpage features a modern, responsive design showcasing my educational background, technical skills, and contact information.
 
-**Development Phase:** In Progress  
-**Version:** 1.0
+**Project Status:** Completed  
+**Version:** 1.0  
+**Last Updated:** September 2026
 
 ## Technologies Used
 - HTML5
 - CSS3 (with Flexbox and Grid)
+- JavaScript
+- Bootstrap Framework
 - Responsive Web Design
 - Mobile-First Design
 - GitHub Pages
