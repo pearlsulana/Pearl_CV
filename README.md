@@ -38,7 +38,7 @@ Open `index.html` in a browser, or run `python -m http.server 3000` in this fold
 ## Submission links
 
 - GitHub: https://github.com/pearlsulana/pearl-cv-portfolio
-- Vercel live website: Pending deployment.
+- Vercel live website: https://pearl-cv-portfolio.vercel.app
 
 ## Deploy to Vercel
 
