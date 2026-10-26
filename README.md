@@ -65,3 +65,7 @@ Check at phone (375px), tablet (768px), and desktop (1440px) widths. Verify no h
 - BananaGuard: https://pearlsulana.github.io/data-mining.html
 - PlayMate materials: https://pearlsulana.github.io/hci-techno.html
 - Portfolio repository: https://github.com/pearlsulana/pearlsulana.github.io
+
+## Project detail pages
+
+`capstone.html`, `data-mining.html`, and `hci-techno.html` provide local project details with selected original project visuals and a responsive layout. The design is specific to this CV. PlayMate live demo: https://playmate-chess.netlify.app/. Source project visuals are retained from the shared academic portfolio.
