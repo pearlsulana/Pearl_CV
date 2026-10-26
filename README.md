@@ -46,7 +46,7 @@ Push the changes to Pearl's dedicated GitHub repository while preserving existin
 
 ## Information awaiting confirmation
 
-- A real profile photo is needed to replace the labeled initials placeholder.
+- Supplied profile photograph included at `assets/pearl-profile.jpg` with descriptive alt text and responsive sizing.
 - Cisco certificate included: CCNA: Switching, Routing, and Wireless Essentials, completed December 1, 2025. This is course completion, not a claim to the separate CCNA exam certification.
 - Academic projects are referenced from https://github.com/pearlsulana/pearlsulana.github.io: CoopNexus (capstone, in development), BananaGuard (Data Mining), and PlayMate (HCI and Technopreneurship).
 - The student confirmed Pearl is the capstone documentarian. Other individual project contributions are not specified. Project technologies are not claimed as her personal programming skills.
