@@ -1,25 +1,67 @@
-# 📄 Personal CV Web Page
+# Pearl Paulene S. Sulana - Personal CV
 
-## Student Information
-- **Full Name:** Pearl Paulene S. Sulana
-- **Year Level:** 4th Year
-- **Section:** BSIT 4D
-- **Course:** IT415
+A personal CV website for IT415 focused on system analysis, technical documentation, and professional presentations. Its visual identity uses a fixed sidebar, expressive typography, lavender and plum colors, rounded skills panels, and a vertical education timeline.
 
-## About This Project
-This repository contains my personal CV webpage created as a requirement for IT415. The webpage features a modern, responsive design showcasing my educational background, technical skills, and contact information.
+## Student
 
-## Technologies Used
-- HTML5
-- CSS3
-- Responsive Web Design
-- GitHub Pages
+- Name: Pearl Paulene S. Sulana
+- School: Davao del Norte State College
+- Program: Bachelor of Science in Information Technology
+- Year / Section: 4th Year / BSIT 4D
+- Focus: System Analysis and Documentation
+- Subject: IT415
 
-## Live Demo
-Visit my CV page: [Link will be available after GitHub Pages deployment]
+## Technologies and features
 
-## Features
-- Clean and professional design
-- Fully responsive layout
-- Modern color scheme
-- Easy to navigate sections
+HTML5, CSS3, and vanilla JavaScript. No installation, dependencies, external fonts, or build command needed.
+
+- Responsive sidebar that becomes a mobile menu
+- Accessible menu state, keyboard focus styles, Escape handling, and skip link
+- Scroll reveals, active section links, and reduced-motion support
+- Print / Save CV button and print styles
+- Clickable email, phone, GitHub, and LinkedIn links
+- Cisco Networking Academy course completion certificate, local preview, and PDF link
+- Profile, career objective, education, skills, academic project, experience, achievements, and interests
+
+## Files
+
+- `index.html`: page content and semantic sections
+- `styles.css`: design, responsive layout, animation, and print styles
+- `script.js`: navigation, scroll interactions, and print action
+- `vercel.json`: static deployment configuration
+- `.gitignore`: excludes local Vercel settings
+
+## Local preview
+
+Open `index.html` in a browser, or run `python -m http.server 3000` in this folder and visit http://localhost:3000.
+
+## Submission links
+
+- GitHub: https://github.com/pearlsulana/pearl-cv-portfolio
+- Vercel live website: Pending deployment.
+
+## Deploy to Vercel
+
+Push the changes to Pearl's dedicated GitHub repository while preserving existing history. Import that repository in Pearl's Vercel account, use the Other framework preset, leave the build command empty, and serve the repository root (`.`). After deployment, test the public production link and replace the pending URL above. Submit both the Vercel and GitHub links to the LMS.
+
+## Information awaiting confirmation
+
+- A real profile photo is needed to replace the labeled initials placeholder.
+- Cisco certificate included: CCNA: Switching, Routing, and Wireless Essentials, completed December 1, 2025. This is course completion, not a claim to the separate CCNA exam certification.
+- Academic projects are referenced from https://github.com/pearlsulana/pearlsulana.github.io: CoopNexus (capstone, in development), BananaGuard (Data Mining), and PlayMate (HCI and Technopreneurship).
+- The student confirmed Pearl is the capstone documentarian. Other individual project contributions are not specified. Project technologies are not claimed as her personal programming skills.
+- LinkedIn: https://www.linkedin.com/in/pearl-sulana-44a05b447/.
+- Confirm existing contact information, education dates, year level, and public phone number before publication.
+
+No employment history or achievements have been invented. The experience section describes academic work and the Cisco certificate details are based on the supplied PDF.
+
+## Verification
+
+Check at phone (375px), tablet (768px), and desktop (1440px) widths. Verify no horizontal overflow, readable typography, mobile menu and Escape key, all section anchors, email and phone links, GitHub, printing, reduced motion, and navigation without JavaScript.
+
+## Academic project sources
+
+- CoopNexus: https://pearlsulana.github.io/capstone.html
+- BananaGuard: https://pearlsulana.github.io/data-mining.html
+- PlayMate materials: https://pearlsulana.github.io/hci-techno.html
+- Portfolio repository: https://github.com/pearlsulana/pearlsulana.github.io
