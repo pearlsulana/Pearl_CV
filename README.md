@@ -68,4 +68,4 @@ Check at phone (375px), tablet (768px), and desktop (1440px) widths. Verify no h
 
 ## Project detail pages
 
-`capstone.html`, `data-mining.html`, and `hci-techno.html` provide local project details with selected original project visuals and a responsive layout. The design is specific to this CV. PlayMate live demo: https://playmate-chess.netlify.app/. Source project visuals are retained from the shared academic portfolio.
+`capstone.html`, `data-mining.html`, and `hci-techno.html` provide local project details with all original project gallery images and a responsive layout. The design is specific to this CV. PlayMate live demo: https://playmate-chess.netlify.app/. Source project visuals are retained from the shared academic portfolio.
